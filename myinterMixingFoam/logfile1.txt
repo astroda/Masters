@@ -1,0 +1,43 @@
+Making dependency list for source file threePhaseInterfaceProperties/threePhaseInterfaceProperties.C
+Making dependency list for source file incompressibleThreePhaseMixture/threePhaseMixture.C
+Making dependency list for source file myinterMixingFoam.C
+SOURCE=incompressibleThreePhaseMixture/threePhaseMixture.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I.. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseMixture/lnInclude -IincompressibleThreePhaseMixture -IthreePhaseInterfaceProperties -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/interfaceProperties/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/turbulenceModels/incompressible/turbulenceModel -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/meshTools/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/fvOptions/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/sampling/lnInclude -IlnInclude -I. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OpenFOAM/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/threePhaseMixture.o
+SOURCE=threePhaseInterfaceProperties/threePhaseInterfaceProperties.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I.. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseMixture/lnInclude -IincompressibleThreePhaseMixture -IthreePhaseInterfaceProperties -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/interfaceProperties/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/turbulenceModels/incompressible/turbulenceModel -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/meshTools/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/fvOptions/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/sampling/lnInclude -IlnInclude -I. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OpenFOAM/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/threePhaseInterfaceProperties.o
+SOURCE=myinterMixingFoam.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I.. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseMixture/lnInclude -IincompressibleThreePhaseMixture -IthreePhaseInterfaceProperties -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/interfaceProperties/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/turbulenceModels/incompressible/turbulenceModel -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/meshTools/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/fvOptions/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/sampling/lnInclude -IlnInclude -I. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OpenFOAM/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/myinterMixingFoam.o
+In file included from alphaEqnsSubCycle.H:1:0,
+                 from myinterMixingFoam.C:86:
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H: In function ‘int main(int, char**)’:
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:7:6: warning: unused variable ‘MULESCorr’ [-Wunused-variable]
+ bool MULESCorr(alphaControls.lookupOrDefault<Switch>("MULESCorr", false));
+      ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:9:6: warning: unused variable ‘alphaOuterCorrectors’ [-Wunused-variable]
+ bool alphaOuterCorrectors
+      ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:17:6: warning: unused variable ‘alphaApplyPrevCorr’ [-Wunused-variable]
+ bool alphaApplyPrevCorr
+      ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:23:8: warning: unused variable ‘icAlpha’ [-Wunused-variable]
+ scalar icAlpha
+        ^
+In file included from myinterMixingFoam.C:80:0:
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:3:7: warning: unused variable ‘nAlphaCorr’ [-Wunused-variable]
+ label nAlphaCorr(readLabel(alphaControls.lookup("nAlphaCorr")));
+       ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:5:7: warning: unused variable ‘nAlphaSubCycles’ [-Wunused-variable]
+ label nAlphaSubCycles(readLabel(alphaControls.lookup("nAlphaSubCycles")));
+       ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:7:6: warning: unused variable ‘MULESCorr’ [-Wunused-variable]
+ bool MULESCorr(alphaControls.lookupOrDefault<Switch>("MULESCorr", false));
+      ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:17:6: warning: unused variable ‘alphaApplyPrevCorr’ [-Wunused-variable]
+ bool alphaApplyPrevCorr
+      ^
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/alphaControls.H:23:8: warning: unused variable ‘icAlpha’ [-Wunused-variable]
+ scalar icAlpha
+        ^
+In file included from myinterMixingFoam.C:53:0:
+/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude/readTimeControls.H:38:8: warning: unused variable ‘maxDeltaT’ [-Wunused-variable]
+ scalar maxDeltaT =
+        ^
+g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I.. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseMixture/lnInclude -IincompressibleThreePhaseMixture -IthreePhaseInterfaceProperties -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/interfaceProperties/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels/twoPhaseProperties/alphaContactAngle/alphaContactAngle -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/turbulenceModels/incompressible/turbulenceModel -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/finiteVolume/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/transportModels -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/meshTools/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/fvOptions/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/sampling/lnInclude -IlnInclude -I. -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OpenFOAM/lnInclude -I/home/aaron/OpenFOAM/OpenFOAM-2.3.0/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPOpt/threePhaseMixture.o Make/linux64GccDPOpt/threePhaseInterfaceProperties.o Make/linux64GccDPOpt/myinterMixingFoam.o -L/home/aaron/OpenFOAM/OpenFOAM-2.3.0/platforms/linux64GccDPOpt/lib \
+     -ltwoPhaseMixture -ltwoPhaseProperties -lincompressibleTransportModels -lincompressibleTurbulenceModel -lincompressibleRASModels -lincompressibleLESModels -lfiniteVolume -lmeshTools -lfvOptions -lsampling -lOpenFOAM -ldl   -lm -o /home/aaron/OpenFOAM/aaron-2.3.0/platforms/linux64GccDPOpt/bin/myinterMixingFoam
